@@ -1,0 +1,57 @@
+@media screen and (max-width:800px) {
+    header .container{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+        .button{
+            margin-top: 5px;
+            width: 300px;
+            height: 60px;
+        }
+}
+
+@media screen and (min-width: 1000px){
+    .description{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 780px){
+    .main-movie{
+        align-items: center;
+    }
+    .main-movie .title{
+        font-size: 28px;
+    }
+    .main-movie .description{
+        font-size: 15px;
+    }
+    .button{
+    padding: 10px 65px;
+    font-size: 12px;
+    flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 390px){
+    .main-movie .title{
+        font-size: 20px;
+    }
+    .main-movie .description{
+        font-size: 13px;
+    }
+    .button{
+        padding: 8px 25px;
+        font-size: 10px;
+
+        flex-direction: column;
+    }
+    .container{
+        margin: 2px;
+    }
+    header nav a{
+        font-size: 13px;
+        margin-right: 2px;
+    }
+}

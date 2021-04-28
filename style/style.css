@@ -1,0 +1,161 @@
+:root{
+    --red: #E50914;
+    --black: #000000;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* elementos base */
+
+body{
+    background: var(--black);
+    font-family: 'Arial', Times, serif;
+    color: white;
+}
+
+.logo img{
+    width: 8rem;
+    margin-right: 2.5rem;
+}
+
+header .container{
+    display: flex;
+    flex-direction: row; /* por padrão, o display flex vem nessa formatação de direção*/
+    align-items: center;
+    justify-content: flex-start;
+
+}
+
+header nav a{
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 10px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+header nav a:nth-child(1){
+    color: var(--red);
+}
+
+header nav a:hover{
+    color: #fff;
+}
+
+.user{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    margin-left: 31rem;
+    cursor: pointer;
+
+    font-family: 'Noto Sans KR', sans-serif;
+    color: #AAA;
+}
+
+.user .username:hover{
+    color: #fff;
+}
+
+.user i{
+    margin: 18px;
+}
+
+.user img{
+    width: 40px;
+}
+
+/* filme principal */
+
+.main-movie{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%) ,url('/img/nav/mainserie.jpg');
+
+    height: 400px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.main-movie .description{
+    margin-top: 15px;
+    margin-bottom: 25px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.main-movie img{
+    width: 30rem;
+}
+
+.main-movie .container{
+    width: 70%;
+    height: 50%;
+}
+
+.container{
+    margin-left: 30px;
+}
+
+/* botões */
+
+.button{
+    background-color: rgba(0, 0, 0, .50) ;
+    border: none;
+    color: white;
+
+    padding: 15px 30px; /* primeiro cima e baixo, segundo esquerda e direita*/
+    margin-right: 15px;
+    font-size: 12px;
+
+    cursor: pointer;
+    transition: .5s ease all; /* .3s*/
+}
+
+.button:hover{
+    background-color: white;
+    color: black;
+}
+
+.button i{
+    margin-right: 8px;
+}
+
+/* imagens */
+
+.roll{
+    margin-top: 1rem;
+}
+
+.box-film{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    margin-bottom: 1rem;
+}
+
+.carrosel{
+    margin-top: 8px;
+    margin-left: 25px;
+}
+
+.subtitle{
+    margin-left: 25px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+
+
+
+/* # WRAPPER = ENVELOPAR */
+
+
+
