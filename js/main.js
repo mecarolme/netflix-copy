@@ -1,6 +1,6 @@
 
 $('.owl-carousel').owlCarousel({
-    loop: false,
+    loop: true,
     margin: 5, /* distancia entre as caixas */
     nav: false, /* barra menu de naveg */
     responsive:{
